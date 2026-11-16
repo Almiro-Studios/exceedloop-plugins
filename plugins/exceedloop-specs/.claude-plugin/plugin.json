@@ -19,5 +19,9 @@
     "agents",
     "exceedloop"
   ],
-  "privacyPolicyUrl": "https://app.exceedloop.ai/legal/privacy"
+  "privacyPolicyUrl": "https://app.exceedloop.ai/legal/privacy",
+  "displayName": "ExceedLoop Specs",
+  "supportUrl": "mailto:sales@exceedloop.ai",
+  "termsOfServiceUrl": "https://app.exceedloop.ai/legal/terms",
+  "documentationUrl": "https://github.com/Almiro-Studios/exceedloop-plugins#readme"
 }
