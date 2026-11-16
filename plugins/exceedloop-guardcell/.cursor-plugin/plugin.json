@@ -1,6 +1,6 @@
 {
   "name": "exceedloop-guardcell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ExceedLoop Guardcell: security scanning for code, containers and IaC. Request scans, read findings and report fixes over MCP.",
   "author": {
     "name": "ExceedLoop",
