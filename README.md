@@ -29,4 +29,4 @@ The server is also in the official MCP Registry as `ai.exceedloop/specs`.
 
 ## Support
 
-sales@exceedloop.ai · [Privacy](https://exceedloop.ai/privacy) · [Terms](https://exceedloop.ai/terms)
+sales@exceedloop.ai · [Privacy](https://app.exceedloop.ai/legal/privacy) · [Terms](https://app.exceedloop.ai/legal/terms)
