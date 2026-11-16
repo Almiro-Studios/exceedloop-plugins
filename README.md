@@ -1,31 +1,47 @@
 # ExceedLoop plugins
 
-Plugins and MCP setup for [ExceedLoop Specs](https://app.exceedloop.ai), for Cursor, Claude Code, VS Code and any MCP client.
+Plugins and MCP setup for ExceedLoop products, for Cursor, Claude Code, VS Code and any MCP client. All servers are remote (streamable HTTP) and sign in with your ExceedLoop account through OAuth.
 
-## Cursor
-
-[Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=exceedloop-specs&config=eyJ1cmwiOiJodHRwczovL2FwcC5leGNlZWRsb29wLmFpL2FwaS9tY3AifQ==), or install the `exceedloop-specs` plugin from the Cursor Marketplace.
+| Product | What it does | MCP URL | Cursor |
+|---|---|---|---|
+| [ExceedLoop Specs](plugins/exceedloop-specs) | Plans, solution docs, ADRs, UX docs, tasks, rules and skills. | `https://app.exceedloop.ai/api/mcp` | [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=exceedloop-specs&config=eyJ1cmwiOiJodHRwczovL2FwcC5leGNlZWRsb29wLmFpL2FwaS9tY3AifQ==) |
+| [ExceedLoop Sketchpad](plugins/exceedloop-sketchpad) | Design canvas: pages, components, PNG renders, code export. | `https://sketchpad.exceedloop.ai/mcp` | [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=exceedloop-sketchpad&config=eyJ1cmwiOiJodHRwczovL3NrZXRjaHBhZC5leGNlZWRsb29wLmFpL21jcCJ9) |
+| [ExceedLoop Guardcell](plugins/exceedloop-guardcell) | Security scans for code, containers and IaC; findings and fixes. | `https://api.guardcell.dev/api/mcp` | [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=exceedloop-guardcell&config=eyJ1cmwiOiJodHRwczovL2FwaS5ndWFyZGNlbGwuZGV2L2FwaS9tY3AifQ==) |
 
 ## Claude Code
 
 ```bash
 /plugin marketplace add Almiro-Studios/exceedloop-plugins
 /plugin install exceedloop-specs@exceedloop
+/plugin install exceedloop-sketchpad@exceedloop
+/plugin install exceedloop-guardcell@exceedloop
 ```
 
-Or without the plugin: `claude mcp add --transport http exceedloop-specs https://app.exceedloop.ai/api/mcp`
+Or without plugins:
+
+```bash
+claude mcp add --transport http exceedloop-specs https://app.exceedloop.ai/api/mcp
+claude mcp add --transport http exceedloop-sketchpad https://sketchpad.exceedloop.ai/mcp
+claude mcp add --transport http exceedloop-guardcell https://api.guardcell.dev/api/mcp
+```
 
 ## Claude.ai, ChatGPT and other clients
 
-Add a custom connector with the URL `https://app.exceedloop.ai/api/mcp` and sign in with your ExceedLoop account.
+Add a custom connector with the MCP URL from the table and sign in with your ExceedLoop account.
 
 ## VS Code
 
 ```json
-{ "servers": { "exceedloop-specs": { "type": "http", "url": "https://app.exceedloop.ai/api/mcp" } } }
+{
+  "servers": {
+    "exceedloop-specs": { "type": "http", "url": "https://app.exceedloop.ai/api/mcp" },
+    "exceedloop-sketchpad": { "type": "http", "url": "https://sketchpad.exceedloop.ai/mcp" },
+    "exceedloop-guardcell": { "type": "http", "url": "https://api.guardcell.dev/api/mcp" }
+  }
+}
 ```
 
-The server is also in the official MCP Registry as `ai.exceedloop/specs`.
+All three servers are in the official MCP Registry as `ai.exceedloop/specs`, `ai.exceedloop/sketchpad` and `ai.exceedloop/guardcell`.
 
 ## Support
 

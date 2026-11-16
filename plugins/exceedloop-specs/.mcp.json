@@ -1,1 +1,2 @@
 { "mcpServers": { "exceedloop-specs": { "type": "http", "url": "https://app.exceedloop.ai/api/mcp" } } }
+

@@ -1,6 +1,35 @@
 {
   "name": "exceedloop",
-  "owner": {"name":"ExceedLoop","email":"sales@exceedloop.ai","url":"https://exceedloop.ai"},
-  "metadata": { "description": "ExceedLoop plugins for Claude Code", "version": "1.0.0" },
-  "plugins": [ { "name": "exceedloop-specs", "source": "./plugins/exceedloop-specs", "description": "ExceedLoop Specs: spec-driven delivery for AI agent teams. Plans, solutions, ADRs, UX docs, tasks, rules and skills over MCP.", "category": "productivity", "homepage": "https://app.exceedloop.ai" } ]
+  "owner": {
+    "name": "ExceedLoop",
+    "email": "sales@exceedloop.ai",
+    "url": "https://exceedloop.ai"
+  },
+  "metadata": {
+    "description": "ExceedLoop plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "exceedloop-specs",
+      "source": "./plugins/exceedloop-specs",
+      "description": "ExceedLoop Specs: spec-driven delivery for AI agent teams. Plans, solutions, ADRs, UX docs, tasks, rules and skills over MCP.",
+      "category": "productivity",
+      "homepage": "https://app.exceedloop.ai"
+    },
+    {
+      "name": "exceedloop-sketchpad",
+      "source": "./plugins/exceedloop-sketchpad",
+      "description": "ExceedLoop Sketchpad: a design canvas for AI agents. Build pages and components, render them to PNG and export code over MCP.",
+      "category": "design",
+      "homepage": "https://sketchpad.exceedloop.ai"
+    },
+    {
+      "name": "exceedloop-guardcell",
+      "source": "./plugins/exceedloop-guardcell",
+      "description": "ExceedLoop Guardcell: security scanning for code, containers and IaC. Request scans, read findings and report fixes over MCP.",
+      "category": "development",
+      "homepage": "https://guardcell.dev"
+    }
+  ]
 }

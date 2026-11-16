@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "exceedloop-guardcell": {
+      "type": "http",
+      "url": "https://api.guardcell.dev/api/mcp"
+    }
+  }
+}

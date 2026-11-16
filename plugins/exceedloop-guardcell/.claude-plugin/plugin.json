@@ -1,0 +1,27 @@
+{
+  "name": "exceedloop-guardcell",
+  "version": "1.0.0",
+  "description": "ExceedLoop Guardcell: security scanning for code, containers and IaC. Request scans, read findings and report fixes over MCP.",
+  "author": {
+    "name": "ExceedLoop",
+    "email": "sales@exceedloop.ai",
+    "url": "https://exceedloop.ai"
+  },
+  "homepage": "https://guardcell.dev",
+  "repository": "https://github.com/Almiro-Studios/exceedloop-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "security",
+    "sast",
+    "scanning",
+    "containers",
+    "iac",
+    "exceedloop"
+  ],
+  "displayName": "ExceedLoop Guardcell",
+  "privacyPolicyUrl": "https://guardcell.dev/privacy",
+  "termsOfServiceUrl": "https://guardcell.dev/terms",
+  "supportUrl": "mailto:sales@exceedloop.ai",
+  "documentationUrl": "https://github.com/Almiro-Studios/exceedloop-plugins/tree/main/plugins/exceedloop-guardcell#readme"
+}

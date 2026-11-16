@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 12 120 104" width="120" height="104" fill="none">
+  <!-- Sketchpad mark: source of truth is the prod Sketchpad project "Sketchpad" (page Logo, component c_logo_mark). -->
+  <defs>
+    <linearGradient id="spl-a" x1="0" y1=".5" x2="1" y2=".5"><stop offset="0" stop-color="#3B5BFF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="spl-b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4F46E5"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="spl-c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="spl-d" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C7D2FE"/></linearGradient>
+  </defs>
+  <path d="M8 82L62 52L116 82L62 112Z" stroke="url(#spl-a)" stroke-width="5" stroke-linejoin="round" opacity=".25"/>
+  <path d="M8 70L62 40L116 70L62 100Z" fill="#0F1733" stroke="url(#spl-a)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M8 58L62 28L116 58L62 88Z" fill="#131C3D" stroke="url(#spl-b)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M66 46C54 42 42 50 52 56C62 62 68 66 56 72" stroke="url(#spl-c)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M82.5 47.5L91.7 55.3L116.4 26.4L107.2 18.6Z" fill="url(#spl-d)"/>
+  <path d="M102 24.7L111.2 32.5L116.4 26.4L107.2 18.6Z" fill="#A5B4FC"/>
+  <path d="M78 62L91.7 55.3L82.5 47.5Z" fill="#E0E7FF"/>
+  <path d="M78 62L83.5 59.3L79.8 56.2Z" fill="#3B5BFF"/>
+</svg>

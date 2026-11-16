@@ -1,0 +1,24 @@
+{
+  "name": "exceedloop-sketchpad",
+  "version": "1.0.0",
+  "description": "ExceedLoop Sketchpad: a design canvas for AI agents. Build pages and components, render them to PNG and export code over MCP.",
+  "author": {
+    "name": "ExceedLoop",
+    "email": "sales@exceedloop.ai",
+    "url": "https://exceedloop.ai"
+  },
+  "homepage": "https://sketchpad.exceedloop.ai",
+  "repository": "https://github.com/Almiro-Studios/exceedloop-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "design",
+    "ui",
+    "components",
+    "figma-like",
+    "agents",
+    "exceedloop"
+  ],
+  "displayName": "ExceedLoop Sketchpad",
+  "logo": "assets/logo.svg"
+}
