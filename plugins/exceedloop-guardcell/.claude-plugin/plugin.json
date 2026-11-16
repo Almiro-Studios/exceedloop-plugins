@@ -20,8 +20,8 @@
     "exceedloop"
   ],
   "displayName": "ExceedLoop Guardcell",
-  "privacyPolicyUrl": "https://guardcell.dev/privacy",
-  "termsOfServiceUrl": "https://guardcell.dev/terms",
+  "privacyPolicyUrl": "https://app.exceedloop.ai/legal/privacy",
+  "termsOfServiceUrl": "https://app.exceedloop.ai/legal/terms",
   "supportUrl": "mailto:sales@exceedloop.ai",
   "documentationUrl": "https://github.com/Almiro-Studios/exceedloop-plugins/tree/main/plugins/exceedloop-guardcell#readme"
 }

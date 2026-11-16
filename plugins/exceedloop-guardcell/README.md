@@ -16,4 +16,4 @@ You need an ExceedLoop account. Learn more at https://guardcell.dev.
 
 ## Support
 
-sales@exceedloop.ai · [Privacy policy](https://guardcell.dev/privacy) · [Terms](https://guardcell.dev/terms)
+sales@exceedloop.ai · [Privacy policy](https://app.exceedloop.ai/legal/privacy) · [Terms](https://app.exceedloop.ai/legal/terms)
