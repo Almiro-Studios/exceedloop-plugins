@@ -1,0 +1,6 @@
+{
+  "name": "exceedloop",
+  "owner": {"name":"ExceedLoop","email":"sales@exceedloop.ai","url":"https://exceedloop.ai"},
+  "metadata": { "description": "ExceedLoop plugins for Cursor", "version": "1.0.0" },
+  "plugins": [ { "name": "exceedloop-specs", "source": "./plugins/exceedloop-specs", "description": "ExceedLoop Specs: spec-driven delivery for AI agent teams. Plans, solutions, ADRs, UX docs, tasks, rules and skills over MCP." } ]
+}

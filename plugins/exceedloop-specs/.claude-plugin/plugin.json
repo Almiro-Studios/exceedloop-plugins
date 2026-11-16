@@ -1,0 +1,10 @@
+{
+  "name": "exceedloop-specs",
+  "version": "1.0.0",
+  "description": "ExceedLoop Specs: spec-driven delivery for AI agent teams. Plans, solutions, ADRs, UX docs, tasks, rules and skills over MCP.",
+  "author": {"name":"ExceedLoop","email":"sales@exceedloop.ai","url":"https://exceedloop.ai"},
+  "homepage": "https://app.exceedloop.ai",
+  "repository": "https://github.com/Almiro-Studios/exceedloop-plugins",
+  "license": "MIT",
+  "keywords": ["mcp", "specs", "prd", "adr", "planning", "agents", "exceedloop"]
+}

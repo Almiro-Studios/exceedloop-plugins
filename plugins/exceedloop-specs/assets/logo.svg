@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="ExceedLoop">
+  <title>ExceedLoop</title>
+  <defs>
+    <linearGradient id="f-over" gradientUnits="userSpaceOnUse" x1="103" y1="228" x2="565" y2="10">
+      <stop offset="0" stop-color="#00E0D2"/><stop offset="0.54" stop-color="#3659E3"/><stop offset="1" stop-color="#00DCFC"/>
+    </linearGradient>
+    <linearGradient id="f-under" gradientUnits="userSpaceOnUse" x1="540" y1="350" x2="103" y2="228">
+      <stop offset="0" stop-color="#9C39F7"/><stop offset="0.18" stop-color="#9C39F7"/><stop offset="0.42" stop-color="#4A2FD0"/><stop offset="0.78" stop-color="#00A5F2"/><stop offset="1" stop-color="#00E0D2"/>
+    </linearGradient>
+    <clipPath id="f-cut"><path d="M0 0 H640 V353 H420 V400 H0 Z"/></clipPath>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#0B1220"/>
+  <g transform="translate(2.5 6.4375) scale(0.051136) translate(-64 0)">
+    <g clip-path="url(#f-cut)" fill="none" stroke-width="58">
+      <path stroke="url(#f-under)" d="M555 372 L350 167 C320 137 280 119.5 235 119.5 C165 119.5 103 160 103 228"/>
+      <path stroke="url(#f-over)" d="M103 227 L103 228 C103 298 148 336 218 336 C292 336 344 285 400 214 L505 80"/>
+    </g>
+    <path fill="url(#f-over)" d="M560 9 L547.4 126.1 L449.6 49.7 Z"/>
+  </g>
+</svg>
