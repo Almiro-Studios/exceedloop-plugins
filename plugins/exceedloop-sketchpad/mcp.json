@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "exceedloop-sketchpad": {
+      "type": "http",
       "url": "https://sketchpad.exceedloop.ai/mcp"
     }
   }

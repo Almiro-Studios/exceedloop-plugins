@@ -20,5 +20,7 @@
     "exceedloop"
   ],
   "displayName": "ExceedLoop Guardcell",
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.svg",
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
 }
