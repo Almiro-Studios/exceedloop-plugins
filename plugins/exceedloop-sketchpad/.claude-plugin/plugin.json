@@ -1,7 +1,7 @@
 {
   "name": "exceedloop-sketchpad",
-  "version": "1.0.2",
-  "icon": "./logo.svg",
+  "version": "1.0.3",
+  "icon": "assets/logo.svg",
   "description": "ExceedLoop Sketchpad: a design canvas for AI agents. Build pages and components, render them to PNG and export code over MCP.",
   "author": {
     "name": "ExceedLoop",
